@@ -1,0 +1,12 @@
+---
+real:
+  - path: "datasets/cardio_train/real.csv"
+  - sep: ";" # if its an excel file, value is trivial.
+
+synthetic:
+  - path: "datasets/cardio_train/synthetic.csv"
+  - sep: ";"
+
+purpose:
+  approach: "classification" # also "regression", "unsupervised" valid.
+  target: "active" # it should be a column name in columns list.
